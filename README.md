@@ -1,5 +1,9 @@
 # Gemini Agent Platform Skill Registry
 
+> [!NOTE]
+> This skill is designed for managing and orchestrating skills in the **Gemini Enterprise Agent Platform Skill Registry**.
+> For full details, official guides, and architectural designs, refer to the [Gemini Enterprise Agent Platform Skill Registry Source Docs](https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/skill-registry).
+
 An open-standard skill package and command-line utility to discover, register, and manage modular AI agent skills on the **Gemini Enterprise Agent Platform Skill Registry** (built on Vertex AI).
 
 ---
