@@ -28,10 +28,9 @@ npx skills add /home/jasondel/agent-platform-skill-registry -g
 ```
 
 ### 2. Install from GitHub (Once Published)
-Once published online under your GitHub profile, users can install this skill package with a single command:
+Once published online, users can install this skill package with a single command:
 ```bash
-# Replace <github-owner> with your GitHub username or organization
-npx skills add <github-owner>/agent-platform-skill-registry
+npx skills add jjdelorme/agent-platform-skill-registry
 ```
 
 ---
