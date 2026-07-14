@@ -19,20 +19,8 @@ An open-standard skill package and command-line utility to discover, register, a
 
 ## Installation via `npx skills`
 
-This repository strictly implements the **Agent Skills open standard**. You can install and integrate this skill natively into supported AI coding agents (such as Claude Code, Cursor, Windsurf, and more) using the `skills.sh` package manager.
+This repository strictly implements the **Agent Skills open standard**. You can install and integrate this skill natively into supported AI coding agents (such as Claude Code, Cursor, Windsurf, and more) using the `skills.sh` package manager:
 
-### 1. Install from your Local Workspace
-If you are developing locally, run this command to symlink or copy this repository into your active agent's workspace:
-```bash
-# Project-scoped install (saved into ./.agents/skills/)
-npx skills add /home/jasondel/agent-platform-skill-registry
-
-# Global install (available across all of your workspaces)
-npx skills add /home/jasondel/agent-platform-skill-registry -g
-```
-
-### 2. Install from GitHub (Once Published)
-Once published online, users can install this skill package with a single command:
 ```bash
 npx skills add jjdelorme/agent-platform-skill-registry
 ```
