@@ -1,0 +1,20 @@
+{
+  "name": "agent-platform-skill-registry",
+  "displayName": "Gemini Agent Platform Skill Registry",
+  "description": "Interact with the Gemini Enterprise Agent Platform Skill Registry to discover and manage skills.",
+  "version": "1.0.0",
+  "publisher": "jasondel",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "AI"
+  ],
+  "contributes": {
+    "chatSkills": [
+      {
+        "path": "./SKILL.md"
+      }
+    ]
+  }
+}
